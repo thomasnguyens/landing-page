@@ -19,6 +19,84 @@ body {
   background: #fff;
 }
 
+
+
+/**About**/
+
+/* need to fix this part */
+#about-section{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#about-img {
+	height: 450px;
+	border-radius: 4px;
+	border-top: 20px solid #e5e5e5;
+	box-shadow: 12px 12px 1px #d7d3e7;
+	overflow-y:hidden;
+	margin: 40px;
+	margin-top: 20px;
+}
+
+#img-console {
+	width: 100%;
+  display: flex; 
+	align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#console {
+	margin: 40px;
+	margin-top: 20px;
+	padding: 30px;
+	overflow-y:auto;
+	line-height: 22px;
+	height: 500px;
+	width: 1000px;
+	font-size: 90%;
+	font-family: Monaco,monospace;
+	border-top: 20px solid #e5e5e5;
+	border-radius: 4px;
+	background-color: #2a2d34;
+	box-shadow: 12px 12px 1px #b3e1ee;
+}
+
+
+
+#console a {
+	text-decoration: underline;
+}
+
+ul { 
+	margin: 0; 
+	padding-left: 24px; 
+}
+
+.first-color {
+	color: #ac78c2;
+}
+.second-color {
+	color: #c5c8c6;
+}
+
+.third-color {
+	color: #5888ca;
+}
+
+.fourth-color {
+	color: #f0c674;
+}
+
+.fifth-color {
+	color: #b5bd68;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
