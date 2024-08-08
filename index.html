@@ -36,17 +36,24 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+
+	
 
 	</head>
 	<body>
 		
-	<div class="fh5co-loader"></div>
+	<!-- <div class="fh5co-loader"></div> -->
 	
-	<div id="page">	
+	<!-- NAVBAR!!! -->
+	<!-- <div id="nav">
+		<a href = "#home-section" class = "nav-item right"> THOMAS NGUYEN</a>
+		<a href = "#tech-section" class = "nav-item left"> TECH PROJECTS</a>
+		<a href = "#gis-section" class = "nav-item left"> GIS PROJECTS</a>
+		<a href = "#resume-section" class = "nav-item left"> RESUME</a>
+		<a href = "#about-section" class = "nav-item left"> ABOUT</a>
+	</div> -->
+
+	<div id="page-content">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div id="container">
@@ -56,7 +63,7 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/pfp2.jpg);"></div>
 							<h1><span>Thomas Nguyen</span></h1>
-							<h3><span>Aspiring Software Engineer</span></h3>
+							<h3><span>GIS | TECH </span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://linkedin.com/in/thomasnguyens" target = "_blank"><i class="icon-linkedin2"></i></a></li>
@@ -70,347 +77,357 @@
 	</header>
 
 	<!--NEW About Section-->
-	<div id="fh5co-about" class="animate-box">
-		<section class ="container column" id="about-section">
-			<h1 class="subtitle">HELLO, WORLD!</h1>
-			<div class="container row" id="img-console">
-				<div id="console">
-					<span class="first-color">package</span>
-					<span class="fifth-color">aboutMe</span><span class="second-color">;</span>
-					<br>
-					<br>
+	<section class ="container column" id="about-section">
+		<div id="fh5co-about" class="animate-box">
+			<h1 class="subtitle"><center>HELLO, WORLD!</center></h1> <!-- might need to fix this-->
+		<div class="container row" id="img-console">
+			<div id="console">
+				<span class="first-color">package</span>
+				<span class="fifth-color">aboutMe</span><span class="second-color">;</span>
+				<br>
+				<br>
+				<span class="first-color">public</span>
+				<span class="third-color">class</span>
+				<span class="fifth-color">Thomas</span>
+				<span class="first-color">extends</span>
+				<span class="fifth-color">humanBean</span>
+				<span class="second-color">{</span>
+				<br>
+				<ul>
 					<span class="first-color">public</span>
-					<span class="third-color">class</span>
-					<span class="fifth-color">Thomas</span>
-					<span class="first-color">extends</span>
-					<span class="fifth-color">humanBean</span>
-					<span class="second-color">{</span>
+					<span class="fifth-color">Thomas</span><!-- 
+					--><span class="second-color">() {</span>
 					<br>
 					<ul>
-						<span class="first-color">public</span>
-						<span class="fifth-color">Thomas</span><!-- 
-						--><span class="second-color">() {</span>
+						<span class="third-color">String</span>
+						<span class="second-color">fullName = </span>
+						<span class="fourth-color">"Thomas Nguyen"</span><span class="second-color">;</span>
+						<br>
+						<span class="third-color">String</span>
+						<span class="second-color">homeTown = </span>
+						<span class="fourth-color">"Pasadena, CA"</span><span class="second-color">;</span>
+						<br>
+						<span class="third-color">String</span>
+						<span class="second-color">school = </span>
+						<span class="fourth-color">"UC Santa Barbara"</span><span class="second-color">;</span>
+						<br>
+						<span class="third-color">int</span>
+						<span class="second-color">expGraduation = </span>
+						<span class="fourth-color">Dec 2023</span><span class="second-color">;</span>
+						<br>
+<!-- 								<span class="third-color">String</span>
+						<span class="second-color">major = </span>
+						<span class="fourth-color">"Data Science"</span><span class="second-color">;</span>
+						<br> -->
+						<span class="third-color">Resume</span>
+						<span class="second-color">resume = </span>
+						<span class="first-color">new</span>
+						<span class="second-color">Resume(</span><span class="fourth-color">"</span><!-- 
+							--><span ><a href="./images/ThomasNguyen.pdf" class="fourth-color">pdf</a></span><!-- 
+							--><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
+						<br>
+						<span class="third-color">String[]</span>
+						<span class="second-color">hobbiesAndInterests = </span>
+						<span class="first-color">new </span>
+						<span class="third-color">String[]</span>
+						<span class="second-color">{</span>
 						<br>
 						<ul>
-							<span class="third-color">String</span>
-							<span class="second-color">fullName = </span>
-							<span class="fourth-color">"Thomas Nguyen"</span><span class="second-color">;</span>
+							<span class="fourth-color">"food connoisseur"</span><span class="second-color">,</span>
 							<br>
-							<span class="third-color">String</span>
-							<span class="second-color">homeTown = </span>
-							<span class="fourth-color">"Pasadena, CA"</span><span class="second-color">;</span>
+							<span class="fourth-color">"swimming"</span><span class="second-color">,</span>
 							<br>
-							<span class="third-color">String</span>
-							<span class="second-color">school = </span>
-							<span class="fourth-color">"UC Santa Barbara"</span><span class="second-color">;</span>
+							<span class="fourth-color">"volleyball"</span><span class="second-color">,</span>
 							<br>
-							<span class="third-color">int</span>
-							<span class="second-color">expGraduation = </span>
-							<span class="fourth-color">Dec 2023</span><span class="second-color">;</span>
+							<span class="fourth-color">"bowling"</span><span class="second-color">,</span>
 							<br>
-	<!-- 								<span class="third-color">String</span>
-							<span class="second-color">major = </span>
-							<span class="fourth-color">"Data Science"</span><span class="second-color">;</span>
-							<br> -->
-							<span class="third-color">Resume</span>
-							<span class="second-color">resume = </span>
+							<span class="fourth-color">"language learning"</span><span class="second-color">,</span>
+							<br>
+							<span class="fourth-color">"board games"</span>
+							<br>
+						</ul>
+						<span class="second-color">}</span>
+						<br>
+					</ul>
+					<span class="second-color">}</span>
+					<br>
+					<span class="first-color">public static</span>
+					<span class="third-color">void</span>
+					<span class="fifth-color">contact</span><!-- 
+					--><span class="second-color">() {</span>
+						<ul>
+							<span class="third-color">Email</span>
+							<span class="second-color">email = </span>
 							<span class="first-color">new</span>
-							<span class="second-color">Resume(</span><span class="fourth-color">"</span><!-- 
-								--><span ><a href="#" class="fourth-color">pdf</a></span><!-- 
-								--><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
+							<span class="second-color">Email(</span><span class="fourth-color">"</span><!-- 
+							--><span ><a href="mailto:tthucnguyen@gmail.com" class="fourth-color">tthucnguyen@gmail.com</a></span><!-- 
+							--><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
 							<br>
 							<span class="third-color">String[]</span>
-							<span class="second-color">hobbiesAndInterests = </span>
+							<span class="second-color">links = </span>
 							<span class="first-color">new </span>
 							<span class="third-color">String[]</span>
 							<span class="second-color">{</span>
 							<br>
 							<ul>
-								<span class="fourth-color">"food connoisseur"</span><span class="second-color">,</span>
+								<span class="fourth-color">"</span><!-- 
+							--><a href="https://www.linkedin.com/in/thomasnguyens/" class= "fourth-color" target="_blank">LinkedIn</a><!-- 
+								--><span class="fourth-color">"</span><span class="second-color">,</span>
 								<br>
-								<span class="fourth-color">"swimming"</span><span class="second-color">,</span>
-								<br>
-								<span class="fourth-color">"volleyball"</span><span class="second-color">,</span>
-								<br>
-								<span class="fourth-color">"bowling"</span><span class="second-color">,</span>
-								<br>
-								<span class="fourth-color">"language learning"</span><span class="second-color">,</span>
-								<br>
-								<span class="fourth-color">"board games"</span>
+								<span class="fourth-color">"</span><!-- 
+							--><a href="https://github.com/thomasnguyens" class= "fourth-color" target="_blank">Github</a><!-- 
+								--><span class="fourth-color">"</span><span class="second-color">,</span>
 								<br>
 							</ul>
 							<span class="second-color">}</span>
-							<br>
 						</ul>
-						<span class="second-color">}</span>
-						<br>
-						<span class="first-color">public static</span>
-						<span class="third-color">void</span>
-						<span class="fifth-color">contact</span><!-- 
-						--><span class="second-color">() {</span>
-							<ul>
-								<span class="third-color">Email</span>
-								<span class="second-color">email = </span>
-								<span class="first-color">new</span>
-								<span class="second-color">Email(</span><span class="fourth-color">"</span><!-- 
-								--><span ><a href="mailto:tthucnguyen@gmail.com" class="fourth-color">tthucnguyen@gmail.com</a></span><!-- 
-								--><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
-								<br>
-								<span class="third-color">String[]</span>
-								<span class="second-color">links = </span>
-								<span class="first-color">new </span>
-								<span class="third-color">String[]</span>
-								<span class="second-color">{</span>
-								<br>
-								<ul>
-									<span class="fourth-color">"</span><!-- 
-								--><a href="https://www.linkedin.com/in/thomasnguyens/" class= "fourth-color" target="_blank">LinkedIn</a><!-- 
-									--><span class="fourth-color">"</span><span class="second-color">,</span>
-									<br>
-									<span class="fourth-color">"</span><!-- 
-								--><a href="https://github.com/thomasnguyens" class= "fourth-color" target="_blank">Github</a><!-- 
-									--><span class="fourth-color">"</span><span class="second-color">,</span>
-									<br>
-								</ul>
-								<span class="second-color">}</span>
-							</ul>
-						<span class="second-color">}</span>
-						<br>
-					</ul>
 					<span class="second-color">}</span>
-				</div>
-				<!-- <img src="#" id="#"> -->
+					<br>
+				</ul>
+				<span class="second-color">}</span>
 			</div>
-		</section>
-	</div>
-
-		<!-- old about me page -->
-		<!-- <div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Thomas Nguyen</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+1 626 205 8936</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">tthucnguyen@gmail.com</span></li>
-						<li><span class="first-block">Website:</span><span class="second-block">thomasnguyens.github.io</span></li>
-						<li><span class="first-block">Location:</span><span class="second-block">Monrovia, CA</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There!</h2>
-					<p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
-					<p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
+			<!-- <img src="#" id="#"> -->
+		</div>
 		
-		</div> -->
+		</div>
+	</section>
 
-
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>RESUME</h2>
+		
+	<!-- RESUME SECTION -->
+	<section id="resume-section">
+		<div id="fh5co-resume" class="fh5co-bg-color">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>RESUME</h2>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work Experience</h3></div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">County Surveyor GIS Intern</h3>
-									<span class="company">County of Santa Barbara <br> OCT 2023 - FEB 2024</span>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline">
+							<li class="timeline-heading text-center animate-box">
+								<div><h3>Work Experience</h3></div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">County Surveyor GIS Intern</h3>
+										<span class="company">County of Santa Barbara <br> OCT 2023 - FEB 2024</span>
+									</div>
+									<div class="timeline-body">
+										<p>Create a digital spatial index of historic parcel maps to be accessible by the public on the CSO website.</p>
+										<p>Using QGIS, created shapefiles through a combination of entering traverse descriptions of coordinate geometry 
+											(COGO) and tracing features from the current parcel boundaries.</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Create a digital spatial index of historic parcel maps to be accessible by the public on the CSO website.</p>
-									<p>Using QGIS, created shapefiles through a combination of entering traverse descriptions of coordinate geometry 
-										(COGO) and tracing features from the current parcel boundaries.</p>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">LA-Tech.org Powered by Fika Ventures</h3>
+										<span class="company">Business and Tech Academy Scholar <br> AUG 2023 - DEC 2023</span>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">LA-Tech.org Powered by Fika Ventures</h3>
-									<span class="company">Business and Tech Academy Scholar <br> AUG 2023 - DEC 2023</span>
+							</li>
+							<!-- <li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">UI/UX Designer</h3>
+										<span class="company">Company Name - 2010 - 2012</span>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<!-- <li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">UI/UX Designer</h3>
-									<span class="company">Company Name - 2010 - 2012</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
-							</div>
-						</li> -->
+							</li> -->
 
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
-						</li>
-						<li class="timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Software Engineering Certificate</h3>
-									<span class="company">Procareer Academy | FEB 2024 - JULY 2024</span>
+							<br>
+							<li class="timeline-heading text-center animate-box">
+								<div><h3>Education</h3></div>
+							</li>
+							<li class="timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Software Engineering Certificate</h3>
+										<span class="company">Procareer Academy | FEB 2024 - JULY 2024</span>
+									</div>
+									<div class="timeline-body">
+										<p>Coursework: HTML, CSS, Bootstrap5, JavaScript, reactJS, nodeJS, mongoDB, expressJS</p>
+										<p>An immersive, accelerated full stack developer program that covers 5 modules, Javascript, Full Stack Developer: Front-end, Back-end, Cloud Deployment and Data Structures & Algorithms.</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Coursework: HTML, CSS, Bootstrap5, JavaScript, reactJS, nodeJS, mongoDB, expressJS</p>
-									<p>An immersive, accelerated full stack developer program that covers 5 modules, Javascript, Full Stack Developer: Front-end, Back-end, Cloud Deployment and Data Structures & Algorithms.</p>
+							</li>
+							<li class="animate-box timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Bachelors Degree</h3>
+										<span class="company">UC Santa Barbara | 2022 - 2023</span>
+									</div>
+									<div class="timeline-body">
+										<!-- <p>Related Coursework: </p> -->
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Bachelors Degree</h3>
-									<span class="company">UC Santa Barbara | 2022 - 2023</span>
-								</div>
-								<div class="timeline-body">
-									<!-- <p>Related Coursework: </p> -->
-								</div>
-							</div>
-						</li>
+							</li>
 
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Associates Degree</h3>
-									<span class="company">Pasadena City College | 2021 - 2022</span>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Associates Degree</h3>
+										<span class="company">Pasadena City College | 2021 - 2022</span>
+									</div>
+									<div class="timeline-body">
+										<p>GPA: 4.0</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>GPA: 4.0</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	
+	<!-- TECH PROJECTS -->
+	<section id="tech-section">
+		<div id="fh5co-work" class="fh5co-bg-dark">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>TECH PROJECTS</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://thomasnguyens.github.io/ecommerce-site/index.html" class="work" target = "_blank" style="background-image: url(images/portfolio-1.jpg);">
+						
+							<div class="desc">
+								<h3>Innisfree Skincare</h3>
+								<span>Created a skincare website that was made from purely HTML/CSS!<br>
+									Used bootstrap5 API for more efficient css formatting.<br>
+								<br><i>HTML / CSS / JavaScript</i>
+								<!-- <h5>(click for demo)</h5> -->
+								</span>
+							</div>
+						</a>
+						
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://thomasnguyens.github.io/weather-app/" class="work" target = "_blank" style="background-image: url(images/w3ather.jpg);">
+							<div class="desc">
+								<h3>Simple Weather App</h3>
+								<span>
+									Created a weather application using api.weathermap.org that fetches information from 
+									remote weather and displays weather for that day.<br>
+									HTML / CSS / JavaScript, JSON Data
+									<!-- <h5>(click for demo)</h5> -->
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://wvzrsk.csb.app/" class="work" target = "_blank" style="background-image: url(images/portfolio-3.jpg);">
+							<div class="desc">
+								<h3>Task Agenda Checklist</h3>
+								<span>
+									A simple everyday to-do checklist with a set-reminder button<br>
+									HTML / CSS / Javascript / React
+								</span>
+								<!-- <a href = "https://wvzrsk.csb.app/" target = "_blank">DEMO</a> -->
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://thomasnguyens.github.io/form-to-table/" class="work" target = "_blank" style="background-image: url(images/portfolio-4.jpg);">
+							<div class="desc">
+								<h3>GPA Calculator</h3>
+								<span>
+									Designed and implemented a script that features a grid to take input of a user's subject grades
+									(up to 4). Page dynamically transitions to hide grid and display table of grades & GPA.<br>
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<!-- GIS PROJECTS, see GIS resume for projects to add here-->
+	<section id="gis-section">
+		<div id="fh5co-blog">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>GIS PROJECTS</h2>
+						<!-- <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/tiger.jpg);"></a>
+							<div class="blog-text">
+								<!-- <span class="posted_on">Mar. 15th 2016</span> -->
+								<h3><a href="https://docs.google.com/document/d/1Et9hHVPUHOwzVhqUaqhyaAbZ0OyWScQU93UGj2LQp1M/edit?usp=sharing">Modeling Tiger Habitats</a></h3>
+								<p><b>OBJECTIVE:</b> Finding the portions of protected areas, having the best environment to support tigers in Thailand. </p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>308</li>
+									<li><a href="https://docs.google.com/document/d/1Et9hHVPUHOwzVhqUaqhyaAbZ0OyWScQU93UGj2LQp1M/edit?usp=sharing">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div> 
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/santaMaria.jpg);"></a>
+							<div class="blog-text">
+								
+								<h3><a href="https://docs.google.com/document/d/1tqzYZuQLVCvRh9nwHM_kQFAkJiwFBsYoiU2ASjuNlUc/edit?usp=sharing">Santa Maria County Gas Stations</a></h3>
+								<p>OBJECTIVE: Find equal competition trade areas for gas stations in Santa Maria County </p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>308</li>
+									<li><a href="https://docs.google.com/document/d/1tqzYZuQLVCvRh9nwHM_kQFAkJiwFBsYoiU2ASjuNlUc/edit?usp=sharing">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div> 
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/solvang.jpg);"></a>
+							<div class="blog-text">
+								
+								<h3><a href="https://docs.google.com/document/d/130zvSuZeG2LEmM0hneIe6IHYLWNwvn5NYTpduvwYz_Y/edit?usp=sharing">Santa Barbara County Work</a></h3>
+								<p>OBJECTIVE: generate shapefules of indexing polygons, using techniques that involve tracing accessor's parcel polygons, and/or coordinate geometry</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>308</li>
+									<li><a href="https://docs.google.com/document/d/130zvSuZeG2LEmM0hneIe6IHYLWNwvn5NYTpduvwYz_Y/edit?usp=sharing">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>PROJECTS</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
-						<div class="desc">
-							<h3>Innisfree Skincare</h3>
-							<span>Created a website that was made from purely HTML/CSS!<br>
-							<!-- <a href = "https" target = "_blank">DEMO</a> -->
-							<br><i>HTML / CSS / JavaScript</i>
-							</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
-						<div class="desc">
-							<h3>Simple Weather App</h3>
-							<span>
-								Created a weather application using api.weathermap.org that fetches information from 
-								remote weather and displays weather for that day.<br>
-								HTML / CSS / JavaScript, JSON Data
-								
-							</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
-						<div class="desc">
-							<h3>Task Agenda Checklist</h3>
-							<span>
-								A simple everyday to-do checklist with a set-reminder button<br>
-								HTML / CSS / Javascript / React
-							</span>
-							<!-- <a href = "https://wvzrsk.csb.app/" target = "_blank">DEMO</a> -->
-						</div>
-					</a>
-				</div>
-
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
-						<div class="desc">
-							<h3>GPA Calculator</h3>
-							<span>
-								Designed and implemented a script that features a grid to take input of a user's subject grades
-								(up to 4). Page dynamically transitions to hide grid and display table of grades & GPA.<br>
-							</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Website</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-skills" class="animate-box">
+	<!-- SKILLS!!!!!1 -->
+	<!-- <div id="fh5co-skills" class="animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -515,68 +532,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	
-	<!-- GIS PROJECTS, see GIS resume for projects to add here-->
-	<div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>GIS Projects</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Photoshoot On The Street</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Surfing at Philippines</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Capture Living On Uderwater</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
 	<div id="fh5co-started" class="fh5co-bg-dark">
 		<div class="overlay"></div>
 		<div class="container">
@@ -590,7 +547,8 @@
 		</div>
 	</div>
 
-	<div id="fh5co-consult">
+	<!-- CONTACT ME SECTION -->
+	<!-- <div id="fh5co-consult">
 		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
 			<div class="overlay"></div>
 		</div>
@@ -631,7 +589,7 @@
 
 			</form>	
 		</div>
-	</div>
+	</div> -->
 
 	<div id="map" class="fh5co-map"></div>
 	</div>
